@@ -13,6 +13,7 @@ return a + 1
 })
 
 // 후행 클로저
+
 var numbers2 = [20, 10, 5, 32, 6]
 
 let mappedNumbers2:[Int] = numbers2.map {
