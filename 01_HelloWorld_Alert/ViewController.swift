@@ -19,11 +19,18 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: Any) {
         let alertController = UIAlertController(title: "카메라", message: "사진을 촬영합니다", preferredStyle: .alert)
         
-        let camAction = UIAlertAction(title: "카메라 열기", style: .default) {
-            (action: UIAlertAction) -> Void in
+//        let camAction = UIAlertAction(title: "카메라 열기", style: .default) {
+//            (action: UIAlertAction) -> Void in
+//            //self.view.backgroundColor = UIColor.blue
+//            self.outLabel.text = "카메라 열기 실행됨"
+//        }
+        
+        // 후행 클로저
+        let camAction = UIAlertAction(title: "카메라 열기", style: .default, handler: {
+             (action: UIAlertAction) -> Void in
             //self.view.backgroundColor = UIColor.blue
             self.outLabel.text = "카메라 열기 실행됨"
-        }
+        })
         
         let libAction = UIAlertAction(title: "사진 폴더 열기", style: .default) {
             (action: UIAlertAction) -> Void in
