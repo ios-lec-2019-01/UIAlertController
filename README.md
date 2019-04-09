@@ -3,6 +3,7 @@ Button을 누르면 아래와 같이 Alert를 표시하고, AlertAction 버튼 3
 
 # 후행 클로저
 <pre><code>
+// 일반 클로저
 import UIKit
 
 var numbers = [20, 10, 5, 32, 6]
