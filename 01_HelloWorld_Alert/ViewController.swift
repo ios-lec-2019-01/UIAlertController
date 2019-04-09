@@ -1,6 +1,5 @@
 //
 //  ViewController.swift
-//  01_HelloWorld_Alert
 //
 //  Created by 김종현 on 2018. 4. 23..
 //  Copyright © 2018년 김종현. All rights reserved.
