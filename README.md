@@ -2,7 +2,7 @@
 Button을 누르면 아래와 같이 Alert를 표시하고, AlertAction 버튼 3개(“카메라 열기”, “사진 폴더 열기”, “취소”)을 누르면 아래와 같이 각각 해당되는 클로져(Closure)가 수행되어 Label에 해당 메시지(문자열)를 출력한다. 
 
 # 후행 클로저
-
+<pre><code>
 import UIKit
 
 var numbers = [20, 10, 5, 32, 6]
@@ -22,3 +22,4 @@ let mappedNumbers2:[Int] = numbers2.map {
 
 return a + 1
 }
+</code></pre>
