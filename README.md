@@ -9,17 +9,14 @@ import UIKit
 var numbers = [20, 10, 5, 32, 6]
 
 let mappedNumbers:[Int] = numbers.map({(a:Int) -> Int in
-
-return a + 1
+   return a + 1
 })
 
 // 후행 클로저
 var numbers2 = [20, 10, 5, 32, 6]
 
 let mappedNumbers2:[Int] = numbers2.map {
-
-(a: Int) -> Int in
-
-return a + 1
+   (a: Int) -> Int in
+   return a + 1
 }
 </code></pre>
